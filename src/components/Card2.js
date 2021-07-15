@@ -28,8 +28,8 @@ function Card2() {
         </div>
       </div>
 
-       
-    );
+        </div>
+    )
 }
 
 export default Card2
