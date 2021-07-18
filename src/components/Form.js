@@ -64,6 +64,25 @@ function Form() {
           <div className=" col-align-self-derecha"></div>
           <img src="/imagenes/plantación2.jpg" alt=""/>
           </ul>
+
+          <h5 classname="sub sub-title" >Los secretos de la plantación de cafe</h5>
+          <p>Para empezar, es necesario saber que el cafeto es una planta subtropical que crece en entornos cálidos comprendidos entre los 18 y los 24 grados, por lo que es preferible que, a menos que el clima de tu ciudad cumpla con los requisitos, la mantengas en el interior. Ten en cuenta, además, que la mejor época para cultivar café es la primavera porque las semillas nuevas tardarán menos en germinar y la temperatura es suave pero elevada.</p>
+
+         
+          <ul class="list-group">
+  <li class="list-group-item">Guia para sembrar una semilla de cafe en casa.</li>
+  <li class="list-group-item list-group-item-info">1. Antes de plantar la semilla de café, es aconsejable pregerminarla, es decir, dejarla en agua durante unas 24 horas</li>
+  <li class="list-group-item list-group-item-primary">2. Luego, rellena una maceta con una mezcla de tierra (70% turba y 30% perlita), a poder ser nueva, y abundante abono.
+
+</li>
+  <li class="list-group-item list-group-item-secondary">4. Siembra la semilla de café a unos 3 o 4 cm de profundidad y tápala con tierra sin presionar demasiado.</li>
+  <li class="list-group-item list-group-item-success">4. Pon la maceta en un espacio donde reciba sol habitualmente.</li>
+  <li class="list-group-item list-group-item-danger">5. Riégala lo suficiente como para mantener la tierra húmeda, pero sin que se acumule el agua.</li>
+  <li class="list-group-item list-group-item-warning">6. Y ¡ten paciencia! La germinación puede tardar un par de meses o incluso más.</li>
+  
+
+ 
+</ul>
  
 
        </p>
