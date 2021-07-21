@@ -1,8 +1,10 @@
 import React from "react";
+import Carousel from '../components/Carousel';
 
 function Form() {
   return (
     <div>
+      <Carousel/>
       <div id="list-example" class="list-group">
 
 
@@ -83,14 +85,11 @@ function Form() {
 
  
 </ul>
+
  
 
        </p>
-          <div className=" col-align-self-derecha">
-          <img className="img-fluid" src="" alt="" width="50%" />
-        
-        </div>
-          
+
        <hr></hr>
         </p>
         <h4 id="list-item-3">Temporada</h4>
@@ -149,11 +148,12 @@ function Form() {
 
 <li>Estos son los mejores suelos, las mejores tierras, la agricultura más próspera se desarrolla bajo estos terrenos volcánicos, esa es una parte de la naturaleza humana, los seres humanos a pesar de cohexistir con una amenaza constante han establecido un estilo de vida alrededor del coloso, dónde han constituido rutas de evacuación y semáforos de alerta.
             </li>
+            <hr></hr>
             <h4 id="list-item-5">Mapa de Productores</h4>
             </p>
 
             <p>Podemos observar el mapa de Chiapas y sus municipios Productores.</p>
-            <img src="/imagenes/chiapasmapacafetalero2.jpg" alt="" width="70%"/>
+            <img src="/imagenes/chiapasmapacafetalero2.jpg" alt="" width="50%"/>
 
 
         </p>
