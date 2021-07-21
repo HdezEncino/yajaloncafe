@@ -40,20 +40,28 @@ function Formulario() {
           " " +
           values.apellidos +
           " " +
-          values.correo
+          values.correo +
+          " " +
+          values.comentario
+
+
+          
+         
       );
       guardarPersonas();
       setValues(variablesInicio);
     };
-  
+    
     return (
+      
       <form className="form-signin needs-validation" onSubmit={onClick}>
       <section className="login">
         <div className="loginContainer">
-        <h2 className="card-title text-dark">Datos de Usuario</h2>
+        <h2 className="card-title text-dark">Datos </h2>
         <h6 className="card-subtitle mb-2 text-muted">
-              Ingresar la información requerida
+              Rellenar si asi se desea
             </h6>
+            
           <label for="validationCustom01" className="form-label">Nombre</label>
           <input
             type="text"
@@ -81,24 +89,32 @@ function Formulario() {
             onChange={onChange}
             required
           />
+          <hr></hr>
+          <img src="/imagenes/granito.jpg" alt="" width="35%"/> 
+
           <div class="form-floating">
-  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
-  <label for="validationCustom02" type="text"
-            name="comentario"
+            <textarea name="comentario"
             value={values.comentario}
             onChange={onChange}
-            required>Comments</label>
+class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+  <label for="validationCustom02" type="text"
+required>comment</label>
+           
+           
+          
   
 </div>
+
           <div className="valid-feedback">Looks good!</div>
           <div className="btnContainer">
-            <button className="btn btn-primary" type="submit">
+            <button className="btn btn-danger" type="submit">
               Guardar
             </button>
           </div>
         </div>
       </section>
       </form>
+      
   
     );
   }

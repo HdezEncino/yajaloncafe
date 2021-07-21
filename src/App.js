@@ -19,8 +19,7 @@ function App() {
     
       <Aruta/>
       
-      
-     
+    
 
     </div>
   );

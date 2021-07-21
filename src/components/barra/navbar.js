@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-danger">
   <div class="container-fluid">
     <Link class="navbar-brand" to="/">Navbar</Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,6 +18,7 @@ const Navbar = () => {
         <li class="nav-item">
           <Link class="nav-link" to="/formul">Formulario</Link>
         </li>
+        
         
       </ul>
     </div>
