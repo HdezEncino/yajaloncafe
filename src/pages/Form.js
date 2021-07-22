@@ -33,42 +33,14 @@ function Form() {
       >
         <h4 id="list-item-1"className=" text-white text-center p-2 bg-dark">historia del cafe </h4>
         <p className="text-derecha ">
-        Querido lector,  como de seguro ya sabrá,  Chiapas es el productor número uno de café orgánico de calidad en el mundo. Sin embargo el conocimiento de parte de la historia del café en Chiapas, nuestro estado, es muy poco conocida,  por lo que el post del día de hoy, servirá para dar pie a lo que fue está aventura.
+        <p>Querido lector,  como de seguro ya sabrá,  Chiapas es el productor número uno de café orgánico de calidad en el mundo. Sin embargo el conocimiento de parte de la historia del café en Chiapas, nuestro estado, es muy poco conocida,  por lo que el post del día de hoy, servirá para dar pie a lo que fue está aventura.
         Chiapas es un estado con un tradicional cuidado en el cultivo y de buena comercialización. La primera vez que se introdujo el grano de café al estado fue en 1847 por Geronimo Manchinelli, en el municipio de Tuxtla Chico, en donde se encuentran las conocidas e históricas ruinas de Izapa, en aquel bello paisaje con el majestuoso volcán Tacaná se adaptó rápidamente  el primer grano de café chiapaneco. Este provenía de Guatemala, donde las condiciones climáticas y de producción son parecidas, puesto que no hay que olvidar que en centroamérica el café comenzó a producirse desde el siglo XVII cuando fue traído de Francia. Posteriormente la segunda etapa del grano de café en Chiapas fue con la llegada de Carlos Gris al Soconusco, con el establecimiento de su finca el Majagual, para 1876 Don Matías Romero, un ilustre político y diplomático mexicano, comenzó con el proyecto de colonización, tras este proyecto, en los años consecuentes se establecieron 22 fincas en toda la zona.
-
+        </p>
         
        <h5 classname="sub-title"className=" text-white text-center p-2 bg-primary" >Plantación</h5>
-       Yashalum la tierra siempre verde cuenta con 3 tipos de plantación muy populares dentro de la region las cuales se mencionan a continuación.
-       <p>
        
-         <h5 classname="sub sub-title" >Tipica:</h5>Uno de los cafés más importantes cultural y genéticamente de C. arabica en el mundo, con alta calidad en Centroamérica. Muy alta susceptibilidad a la roya, bien adaptado a las condiciones más frías.
-      
-      <ul class="lista-simple">
-         <li>Porte: Alta </li>
-          <li>Color del brote de las hojas: Bronce </li>
-         <li> Tamaño del fruto: Grande</li>
-         <div className=" col-align-self-derecha"></div>
-          <img src="/imagenes/plantación.jpg" alt=""/>
-        <li>También llamados Criollo, Indio, Arábigo, Pluma Hidalgo, Blue Mountain y Sumatra.
-          </li> 
-          
-      <h5 classname="sub sub-title" >Caturra:</h5>Una planta compacta con un buen potencial de rendimiento y de calidad estándar en Centroamérica. Muy alta susceptibilidad a la roya.
-         
-          <li>Porte: bajo/compacto</li>
-          <li>Color del brote de las hojas: verde </li>
-          <li>Tamaño del fruto: promedio</li>
-          <div className=" col-align-self-izquierda"></div>
-          <img src="/imagenes/plantación1.jpg" alt=""/>
-          <hr></hr>
-          <h5 classname="sub sub-title" >Borbón:</h5>  Uno de los cafés más importantes cultural y genéticamente de C. arabica en el mundo, conocidos por su excelente calidad de la bebida en las mayores altitudes.
-         <li>Porte: alta </li> 
-          <li>Color del brote de las hojas: verde </li>
-         <li> Tamaño del fruto: promedio</li>
-          <div className=" col-align-self-derecha"></div>
-          <img src="/imagenes/plantación2.jpg" alt=""/>
-          </ul>
-
-          <h5 classname="sub sub-title" >Los secretos de la plantación de cafe</h5>
+       <p>
+       <h5 classname="sub sub-title" >Los secretos de la plantación de cafe</h5>
           <p>Para empezar, es necesario saber que el cafeto es una planta subtropical que crece en entornos cálidos comprendidos entre los 18 y los 24 grados, por lo que es preferible que, a menos que el clima de tu ciudad cumpla con los requisitos, la mantengas en el interior. Ten en cuenta, además, que la mejor época para cultivar café es la primavera porque las semillas nuevas tardarán menos en germinar y la temperatura es suave pero elevada.</p>
 
          
@@ -87,6 +59,43 @@ function Form() {
  
 </ul>
 
+
+<h5 classname="sub sub-title" >Tipos de plantación</h5>
+<p>Yashalum la tierra siempre verde cuenta con 3 tipos de plantación muy populares dentro de la region las cuales se mencionan a continuación.</p>
+
+       
+    <h5 classname="sub-title" >Tipica:</h5>Uno de los cafés más importantes cultural y genéticamente de C. arabica en el mundo, con alta calidad en Centroamérica. Muy alta susceptibilidad a la roya, bien adaptado a las condiciones más frías.
+      
+      <ul class="lista-simple">
+         <li>Porte: Alta </li>
+          <li>Color del brote de las hojas: Bronce </li>
+         <li> Tamaño del fruto: Grande</li>
+         <li>También llamados Criollo, Indio, Arábigo, Pluma Hidalgo, Blue Mountain y Sumatra.</li> 
+         <div className=" col-align-self-center"></div>
+         
+          <img src="/imagenes/plantación.jpg" alt=""/>
+        
+          
+          
+ <h5 classname="sub-title" >Caturra:</h5>
+      <p>Una planta compacta con un buen potencial de rendimiento y de calidad estándar en Centroamérica. Muy alta susceptibilidad a la roya.</p>
+         
+          <li>Porte: bajo/compacto</li>
+          <li>Color del brote de las hojas: verde </li>
+          <li>Tamaño del fruto: promedio</li>
+          <div className=" col-align-self-izquierda"></div>
+          <img src="/imagenes/plantación1.jpg" alt=""/>
+          
+          
+          <h5 classname=" sub-title" >Borbón:</h5>  Uno de los cafés más importantes cultural y genéticamente de C. arabica en el mundo, conocidos por su excelente calidad de la bebida en las mayores altitudes.
+         <li>Porte: alta </li> 
+          <li>Color del brote de las hojas: verde </li>
+         <li> Tamaño del fruto: promedio</li>
+          <div className=" col-align-self-derecha"></div>
+          <img src="/imagenes/plantación2.jpg" alt=""/>
+          </ul>
+
+         
  
 
        </p>
@@ -152,7 +161,7 @@ function Form() {
             </li>
             
             <h4 id="list-item-5"className=" text-white text-center p-2 bg-danger">Mapa de productores</h4>
-        <p className="text-derecha "></p>
+        <p className="text-center "></p>
             </p>
 
             <p>Podemos observar el mapa de Chiapas y sus municipios Productores.</p>

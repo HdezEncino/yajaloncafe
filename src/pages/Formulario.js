@@ -59,7 +59,7 @@ function Formulario() {
         <div className="loginContainer">
         <h2 className="card-title text-dark">Datos </h2>
         <h6 className="card-subtitle mb-2 text-muted">
-              Rellenar si asi se desea
+              Rellenar si asi se desea 
             </h6>
             
           <label for="validationCustom01" className="form-label">Nombre</label>
@@ -99,8 +99,9 @@ function Formulario() {
 class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
   <label for="validationCustom02" type="text"
 required>comment</label>
-           
-           
+
+<p>posdata: los demas visitantes no veran sus comentarios (es solo opinion para los creadores)</p>
+                  
           
   
 </div>

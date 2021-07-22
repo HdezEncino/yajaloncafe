@@ -5,6 +5,7 @@ import Form from "../pages/Form";
 import Formulario from "../pages/Formulario";
 
 
+
 function Aruta() {
   return (
     <div>
@@ -13,6 +14,7 @@ function Aruta() {
         <Switch>
           <Route path="/" exact component={Form} />
           <Route path="/formul" exact component={Formulario} />
+       
           
         </Switch>
       </Router>
